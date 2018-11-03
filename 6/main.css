@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+}
+body {
+    background-color: darkgray;
+    width:1360px;
+}
+.logo {
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px
+}
+.menu {
+    border:1px solid white;
+    height:25px;
+    background-color: darkslategrey;
+}
+.gmenu > li {
+    display: block; 
+    position: relative;
+    float:left;
+    z-index: 1;
+
+}
+#g{
+    background-color: darkslategrey;
+    width: 125px;
+    height: 25px;
+    margin-right: 10px;
+    border: none;
+
+}
+.gmenu li #g:hover{
+    background-color: white;
+}
+.subg{
+    position: absolute;
+    visibility: hidden;
+    list-style: none;
+    border:1px solid white;
+    padding-inline-start: 0px;
+    background-color: darkslategrey
+}
+.subg li{
+    display: block; 
+    position: relative;
+    border: none;
+    /*float:left;*/
+    
+}
+#sg{
+    background-color: darkslategrey;
+    border: none;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.gmenu  li:hover .subg{
+    visibility: visible;
+
+}
+#sg:hover{
+    background-color: white;
+}
+
+.sub3g{
+    position: absolute;
+    visibility: hidden;
+    list-style: none;
+    border:1px solid white;
+    padding-inline-start: 0px;
+    left:100%;
+    top:0%;
+    background-color: darkslategrey
+}
+.subg >li:hover .sub3g{
+    visibility: visible;
+}
+#sg3{
+    background-color: darkslategrey;
+    border: none;
+    white-space: nowrap;
+}
+#sg3:hover{
+    background-color: white
+}
+p:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: grey;
+    margin-left: 170 px;
+    margin-right: 170 px 
+}
+p:first-child{
+    height: 20px;
+    text-align: center;
+    background-color: lightgrey;
+   
+}
+.rsidebar{
+    background-color: darkslategrey;
+    float: right;
+    width: 150px;
+    height: 200px;
+}
+#m{
+    margin-top: 80px;
+    margin-left: 15px
+}
+div.rsidebar p#c {
+    height: 20px;
+    text-align: center;
+    background-color: white;
+}
+.vmenu{
+    list-style: none;
+    padding-inline-start: 0px
+}
+.vmenu >li{
+    position: relative;
+    display: block;
+    float: left;
+
+}
+#v{
+    background-color: darkslategrey;
+    width: 125px;
+    height: 25px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: none;
+    
+}
+.subv{
+    visibility: hidden;
+    list-style: none;
+    position: absolute;
+    padding-inline-start: 0px;
+    border: 1px solid white;
+    left:100%;
+    top:0%;
+    background-color: green
+
+}
+#sv{
+    background-color: green;
+    border:none;
+    white-space: nowrap;
+    border: none;
+}
+#v:hover{
+    background-color: white;
+}
+.vmenu >li:hover .subv{
+    visibility: visible;
+}
+#sv:hover{
+    background-color: white;
+}
+.lsidebar {
+    background-color: darkslategrey;
+    float : left;
+    width: 150px;
+    height: 200px;
+    border: 1% solid white
+    
+}
+div.lsidebar p {
+    height:20px;
+    background-color: white;
+    text-align: center
+}
+.footer {
+    background-color: darkslategrey;
+    border-top: 1px solid white
+}

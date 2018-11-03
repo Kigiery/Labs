@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+}
+body {
+    background-color: darkgray;
+    width:1360px;
+}
+.logo {
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px
+}
+.menu {
+    border:1px solid white;
+    height:25px;
+    background-color: darkslategrey;
+}
+.gnav {
+    list-style: none;
+    padding-inline-start: 0px
+}
+#g{
+    background-color: darkslategrey;
+    width: 125px;
+    height: 25px;
+    margin-right: 10px;
+    border: none;
+}
+#g:hover{
+    background-color: white;
+}
+
+
+.gnav li {
+    display: inline; 
+}
+
+
+p:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: grey;
+    margin-left: 170 px;
+    margin-right: 170 px 
+}
+p:first-child{
+    height: 20px;
+    text-align: center;
+    background-color: lightgrey;
+   
+}
+.rsidebar{
+
+    background-color: darkslategrey;
+    float: right;
+    width: 150px;
+    height: 200px;
+}
+#m{
+    margin-top: 80px;
+    margin-left: 15px
+}
+div.rsidebar p#c {
+    height: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.vmenu{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.vmenu  li{
+    display: inline-block; 
+   
+}
+#v{
+    background-color: darkslategrey;
+    display: inline-block;
+    width: 125px;
+    height: 25px; 
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px;
+    border-bottom-color: white;
+    
+}
+#v:hover{
+    background-color: white;
+}
+.lsidebar {
+    background-color: darkslategrey;
+    float : left;
+    width: 150px;
+    height: 200px;
+    border: 1% solid white
+    
+}
+div.lsidebar p {
+    height:20px;
+    background-color: white;
+    text-align: center
+}
+.footer {
+    background-color: darkslategrey;
+    border-top: 1px solid white
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+header {
+    height: 100px;
+    background-color:lightblue;
+    text-align: center;
+
+}
+footer {
+    background-color:lightblue;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid black;
+    margin-left: 205px
+    
+}
+th,td {
+    border:1px solid black;
+    text-align: center;
+}
+th {
+    background-color: gray;
+}
+.block1 {
+    float: left;
+    text-align: center;
+    background-color: gray;
+    position:  absolute;
+    height: 200px;
+    width: 200px;
+}
+
+
