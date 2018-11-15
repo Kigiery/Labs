@@ -1,0 +1,82 @@
+page1 {
+    display: block;
+    border: 1px solid black; 
+    width: 900px;
+    height: 800px;
+    margin-left:5px;
+    margin-top: 5px;
+}
+image {
+    display: block;
+    background-image: url("./pic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height:327px;
+    padding-top: 10px
+}
+
+image_caption{
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+page2 {
+    display: block;
+    border: 1px solid black; 
+    width: 900px;
+    height: 600px;
+    margin-left:5px;
+} 
+shapka {
+    display: block;
+    border-bottom: 1px solid black;
+    height: 30px;
+}
+topic {
+    display:block;
+    float:right;
+}
+numpage {
+    display: block;
+    float:left;
+    
+}
+b{
+    font-weight: bold;
+}
+p1 {
+    display:block;
+    height: 40px;
+    padding: 30px;
+    
+}
+p2 {
+    display:block;
+    height: 30px;
+    padding: 30px;
+    
+  
+}
+p3 {
+    display: block;
+    height: 40px;
+    padding: 30px;
+    
+    
+    
+}
+p4 {
+    display:block;
+    height: 30px;
+    padding: 25px;
+    
+    
+}
+s {
+    display:block;
+    margin-left: 70px;
+}
+
+
+

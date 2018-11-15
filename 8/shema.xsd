@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="book">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="page1"/>
+        <xs:element ref="page2"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="page1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="shapka"/>
+        <xs:element ref="image"/>
+        <xs:element ref="image_caption"/>
+        <xs:element ref="p1"/>
+        <xs:element ref="p2"/>
+        <xs:element ref="p3"/>
+        <xs:element ref="p4"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="image">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="image_caption" type="xs:string"/>
+  <xs:element name="page2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="shapka"/>
+        <xs:element ref="p1"/>
+        <xs:element ref="p2"/>
+        <xs:element ref="p3"/>
+        <xs:element ref="p4"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="shapka">
+    <xs:complexType mixed = "true">
+      <xs:sequence>
+        <xs:element ref="numpage"/>
+        <xs:element ref="topic"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="numpage" type="xs:NMTOKEN"/>
+  <xs:element name="topic" type="xs:string"/>
+  <xs:element name="p1">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="b"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="p2">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="b"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="p3">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="b"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="p4">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="s"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="s" type="xs:string"/>
+  <xs:element name="b" type="xs:string"/>
+</xs:schema>
